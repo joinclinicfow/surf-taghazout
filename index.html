@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SURF-TAGHAZOUT.MA | Official Premium Asset</title>
+    <title>OFFRE D'ACQUISITION : SURF-TAGHAZOUT.MA</title>
     <style>
         :root {
-            --gold: #d4af37;
-            --dark: #0f172a;
-            --light: #f8fafc;
+            --gold: #c5a059;
+            --dark: #0a0a0a;
+            --light: #ffffff;
         }
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+            font-family: 'Times New Roman', Times, serif; /* Style très "notaire/avocat" */
+            background-color: var(--dark);
             color: var(--light);
             display: flex;
             align-items: center;
@@ -22,83 +22,76 @@
             height: 100vh;
             text-align: center;
         }
-        .luxury-card {
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(10px);
+        .container {
+            border: 1px solid rgba(197, 160, 89, 0.3);
             padding: 60px 40px;
-            border-radius: 2px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-            max-width: 600px;
-            width: 90%;
-            position: relative;
+            max-width: 700px;
+            background: linear-gradient(145deg, #111, #050505);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
         }
-        .badge {
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-size: 12px;
+        .header-label {
             color: var(--gold);
-            border: 1px solid var(--gold);
-            padding: 5px 15px;
-            display: inline-block;
-            margin-bottom: 30px;
+            letter-spacing: 7px;
+            font-size: 12px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
         }
         h1 {
-            font-size: 2.5rem;
-            letter-spacing: -1px;
-            margin: 0 0 10px 0;
+            font-size: 2.8rem;
+            margin: 10px 0;
             font-weight: 300;
+            letter-spacing: 1px;
         }
-        .domain-name {
-            font-weight: 800;
-            color: #fff;
-        }
-        p {
+        .domain { font-weight: bold; color: var(--gold); }
+        .description {
             font-size: 1.1rem;
-            color: #94a3b8;
-            line-height: 1.6;
-            margin-bottom: 40px;
+            color: #999;
+            line-height: 1.8;
+            margin: 40px 0;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
         }
-        .btn {
+        .btn-mail {
+            display: inline-block;
             background: var(--gold);
             color: var(--dark);
+            padding: 18px 45px;
             text-decoration: none;
-            padding: 18px 40px;
-            font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-            display: inline-block;
+            letter-spacing: 2px;
+            font-weight: bold;
+            transition: 0.3s;
         }
-        .btn:hover {
+        .btn-mail:hover {
             background: #fff;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            color: var(--dark);
         }
-        .stats {
-            margin-top: 40px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            padding-top: 30px;
+        .footer-note {
+            margin-top: 50px;
+            font-size: 11px;
+            color: #555;
+            letter-spacing: 2px;
         }
-        .stat-item { font-size: 0.8rem; color: #64748b; }
-        .stat-value { color: var(--gold); display: block; font-weight: bold; font-size: 1.2rem; }
     </style>
 </head>
 <body>
 
-    <div class="luxury-card">
-        <div class="badge">Asset Management</div>
-        <h1>Acquisition Priority: <br><span class="domain-name">surf-taghazout.ma</span></h1>
-        <p>This premium digital asset is currently available for acquisition or strategic partnership. Seize the leading domain for the Taghazout surf industry.</p>
+    <div class="container">
+        <div class="header-label">Transfert de Propriété</div>
+        <h1>Actif Numérique <br><span class="domain">surf-taghazout.ma</span></h1>
         
-        <a href="https://wa.me/212608245835?text=Je%20souhaite%20faire%20une%20offre%20pour%20surf-taghazout.ma" class="btn">Make an Offer</a>
+        <p class="description">
+            Positionnez votre établissement sur l'adresse de référence du secteur à Taghazout. 
+            Une opportunité d'acquisition stratégique pour dominer le référencement local.
+        </p>
 
-        <div class="stats">
-            <div class="stat-item"><span class="stat-value">HIGH</span>SEO Authority</div>
-            <div class="stat-item"><span class="stat-value">PREMIUM</span>Targeted Traffic</div>
+        <a href="mailto:ton-email@gmail.com?subject=Offre d'acquisition : surf-taghazout.ma&body=Bonjour, nous souhaitons obtenir des informations concernant les conditions de cession du domaine surf-taghazout.ma." class="btn-mail">
+            Contacter le Propriétaire
+        </a>
+
+        <div class="footer-note">
+            DOSSIER STRICTEMENT CONFIDENTIEL — 2026
         </div>
     </div>
 

@@ -4,32 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OFFRE DE CESSION : SURF-TAGHAZOUT.MA</title>
-    
-    <style>
-        body { margin: 0; padding: 0; background-color: #000; color: #fff; font-family: 'Arial', sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; text-align: center; }
-        .container { border: 2px solid #c5a059; margin-top: 50px; padding: 40px 20px; width: 90%; max-width: 550px; background: #0a0a0a; box-shadow: 0 0 50px rgba(197, 160, 89, 0.15); }
-        .badge { color: #ff3e3e; font-weight: bold; letter-spacing: 3px; font-size: 11px; text-transform: uppercase; margin-bottom: 20px; }
-        h1 { font-size: 28px; color: #c5a059; margin: 10px 0; letter-spacing: 1px; }
-        .domain-name { font-size: 38px; font-weight: 900; color: #fff; margin: 15px 0; border-bottom: 2px solid #c5a059; display: inline-block; padding-bottom: 5px; }
-        
-        /* Liste des arguments de vente */
-        .features { text-align: left; margin: 30px auto; max-width: 400px; }
-        .feature-item { margin-bottom: 15px; font-size: 15px; color: #ddd; display: flex; align-items: center; }
-        .feature-item span { color: #c5a059; margin-right: 15px; font-size: 20px; }
-
-        .btn { display: block; background-color: #c5a059; color: #000; padding: 20px; text-decoration: none; font-weight: 900; text-transform: uppercase; margin: 30px 0; font-size: 16px; border-radius: 2px; transition: 0.3s; }
-        .btn:hover { background-color: #fff; transform: scale(1.03); }
-        
-        .contact { font-size: 14px; color: #666; }
-        .contact b { color: #fff; font-size: 18px; display: block; margin-top: 5px; }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#c5a059',
+                        dark: '#0a0a0a',
+                        danger: '#ff3e3e',
+                    },
+                    fontFamily: {
+                        sans: ['Arial', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
 </head>
-<body>
+<body class="m-0 p-0 bg-black text-white font-sans flex flex-col items-center min-h-screen text-center">
 
-    <div class="container">
-        <div class="badge">● OPPORTUNITÉ STRATÉGIQUE 2026</div>
-        <h1>DOSSIER DE CESSION</h1>
-        <div class="domain-name">surf-taghazout.ma</div>
-        
-        <div class="features">
-            <div class="feature-item"><span>✔
+    <div class="border-2 border-gold mt-12 px-5 py-10 w-[90%] max-w-[550px] bg-dark shadow-[0_0_50px_rgba(197,160,89,0.15)]">
+
+        <div class="text-danger font-bold tracking-[3px] text-[11px] uppercase mb-5">&#9679; OPPORTUNIT&#201; STRAT&#201;GIQUE 2026</div>
+
+        <h1 class="text-[28px] text-gold my-2.5 tracking-[1px]">DOSSIER DE CESSION</h1>
+
+        <div class="text-[38px] font-black text-white my-4 border-b-2 border-gold inline-block pb-1">surf-taghazout.ma</div>
+
+        <div class="text-left mx-auto max-w-[400px] mt-8">
+            <div class="mb-4 text-[15px] text-[#ddd] flex items-center">
+                <span class="text-gold mr-4 text-[20px]">&#10004;</span>
+                Domaine .ma premium, id&#233;al pour le march&#233; du surf
+            </div>
+            <div class="mb-4 text-[15px] text-[#ddd] flex items-center">
+                <span class="text-gold mr-4 text-[20px]">&#10004;</span>
+                Taghazout : spot de surf mondialement reconnu
+            </div>
+            <div class="mb-4 text-[15px] text-[#ddd] flex items-center">
+                <span class="text-gold mr-4 text-[20px]">&#10004;</span>
+                Potentiel SEO exceptionnel sur les mots-cl&#233;s surf + Taghazout
+            </div>
+            <div class="mb-4 text-[15px] text-[#ddd] flex items-center">
+                <span class="text-gold mr-4 text-[20px]">&#10004;</span>
+                Parfait pour : &#233;cole de surf, camp, blog, agence locale
+            </div>
+            <div class="mb-4 text-[15px] text-[#ddd] flex items-center">
+                <span class="text-gold mr-4 text-[20px]">&#10004;</span>
+                Nom de domaine court, m&#233;morable et brandable
+            </div>
+        </div>
+
+        <a href="mailto:contact@surf-taghazout.ma?subject=Int%C3%A9ress%C3%A9%20par%20surf-taghazout.ma" class="block bg-gold text-black py-5 no-underline font-black uppercase my-8 text-base rounded-sm transition-all duration-300 hover:bg-white hover:scale-[1.03]">
+            FAIRE UNE OFFRE MAINTENANT
+        </a>
+
+        <div class="text-sm text-[#666]">
+            Contact direct :
+            <b class="text-white text-lg block mt-1">contact@surf-taghazout.ma</b>
+        </div>
+    </div>
+
+</body>
+</html>

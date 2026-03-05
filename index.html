@@ -3,114 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALERTE ACQUISITION : SURF-TAGHAZOUT.MA</title>
+    <title>ALERTE : SURF-TAGHAZOUT.MA</title>
     <style>
-        :root {
-            --blood-red: #8b0000;
-            --deep-black: #050505;
-            --gold: #c5a059;
-        }
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: var(--deep-black);
-            color: white;
+            background-color: #000000; /* Noir pur */
+            color: #ffffff;
+            font-family: Arial, sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            overflow: hidden;
+            text-align: center;
         }
-        .monitor-box {
-            border: 1px solid #222;
-            padding: 50px;
-            max-width: 650px;
-            background: black;
-            position: relative;
-            box-shadow: 0 0 30px rgba(197, 160, 89, 0.05);
+        .box {
+            border: 2px solid #c5a059; /* Bordure dorée pour être sûr de voir quelque chose */
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
         }
-        .status-light {
-            width: 10px;
-            height: 10px;
-            background: var(--blood-red);
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 10px;
-            animation: blink 1s infinite;
-        }
-        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
-        
-        .header-top {
-            font-size: 10px;
-            letter-spacing: 4px;
-            color: #555;
-            text-transform: uppercase;
-            margin-bottom: 40px;
+        .red-dot {
+            color: #ff0000;
+            font-size: 20px;
+            margin-bottom: 20px;
         }
         h1 {
-            font-size: 2.2rem;
-            font-weight: 900;
-            margin: 0;
-            letter-spacing: -1px;
-            line-height: 1.1;
-        }
-        .highlight { color: var(--gold); }
-        
-        .warning-text {
-            margin: 30px 0;
-            font-size: 1.1rem;
-            color: #888;
-            line-height: 1.6;
-            border-left: 2px solid var(--gold);
-            padding-left: 20px;
-            text-align: left;
-        }
-        .btn-black {
-            display: block;
-            background: white;
-            color: black;
-            padding: 20px;
-            text-decoration: none;
-            font-weight: 900;
+            font-size: 24px;
             text-transform: uppercase;
             letter-spacing: 2px;
-            margin-top: 40px;
-            transition: 0.3s;
+            margin-bottom: 20px;
         }
-        .btn-black:hover {
-            background: var(--gold);
-            color: white;
+        span.gold { color: #c5a059; font-weight: bold; }
+        p {
+            color: #888;
+            font-size: 16px;
+            line-height: 1.5;
         }
-        .footer-secure {
+        .btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
             margin-top: 30px;
-            font-size: 9px;
-            color: #333;
-            letter-spacing: 1px;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
 
-    <div class="monitor-box">
-        <div class="header-top">
-            <span class="status-light"></span> Dossier d'Acquisition Stratégique #2026-THZ
-        </div>
+    <div class="box">
+        <div class="red-dot">● EN ATTENTE D'ACQUISITION</div>
+        <h1>Le domaine <br><span class="gold">surf-taghazout.ma</span><br> va changer de propriétaire.</h1>
+        
+        <p>Ne laissez pas votre concurrent direct s'emparer de ce flux de clients. Protégez votre activité à Taghazout dès maintenant.</p>
 
-        <h1>Le domaine <span class="highlight">surf-taghazout.ma</span> va changer de main.</h1>
-
-        <div class="warning-text">
-            Chaque jour, des centaines de touristes tapent ces mots exacts. <br><br>
-            Soit ce trafic arrive dans <strong>votre</strong> établissement, soit il est redirigé vers celui de votre <strong>concurrent</strong>. Le choix est définitif.
-        </div>
-
-        <a href="mailto:TON-EMAIL@GMAIL.COM?subject=PRIORITE : Acquisition surf-taghazout.ma&body=Je souhaite bloquer la vente du domaine et obtenir les conditions de transfert immédiatement." class="btn-black">
-            Réclamer l'Exclusivité
-        </a>
-
-        <div class="footer-secure">
-            ID TRANSACTION : 00982-MA | ACCÈS RESTREINT
-        </div>
+        <a href="mailto:TON-EMAIL@GMAIL.COM?subject=URGENT : Acquisition surf-taghazout.ma" class="btn">Réclamer l'Exclusivité</a>
     </div>
 
 </body>
